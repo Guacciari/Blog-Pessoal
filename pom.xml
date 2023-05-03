@@ -17,6 +17,23 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+		<!-- Dependência do Banco de dados PostgreSQL -->
+<dependency>
+	<groupId>org.postgresql</groupId>
+	<artifactId>postgresql</artifactId>
+</dependency> 
+		<!-- Dependência para Geração do Swagger -->
+	<dependency>
+		<groupId>org.springdoc</groupId>
+		<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+		<version>2.0.2</version>
+	 </dependency>
+	 <!-- Dependência do Banco de dados PostgreSQL -->
+<dependency>
+	<groupId>org.postgresql</groupId>
+	<artifactId>postgresql</artifactId>
+</dependency> 
+
 		<!-- Dependências da Spring Security -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -79,6 +96,7 @@
         </dependency>
 
 	</dependencies>
+	
 	<build>
 		<plugins>
 			<plugin>
